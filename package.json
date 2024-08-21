@@ -1,0 +1,18 @@
+{
+  "name": "mk-backend-web-app",
+  "version": "0.1.0",
+  "description": "manthan-mk backend web-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Manthan Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.0.3"
+  }
+}
